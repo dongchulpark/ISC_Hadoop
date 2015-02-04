@@ -1,0 +1,1068 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.19)  3 FEB 2015 22:11
+entering extended mode
+**ISC_Hadoop_TC.tex
+("C:\Users\dongchul.p1\Documents\SAL\SmartSSD Project\2014\Hadoop_ISC\ISC_Hadoop_TC\ISC_Hadoop_TC.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
+, bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
+ian, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, icelandic, indonesian, interlingua, irish, italian,
+ kannada, kurmanji, latin, latvian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, ngerman
+-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
+ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
+elsh, loaded.
+("C:\Users\dongchul.p1\Documents\SAL\SmartSSD Project\2014\Hadoop_ISC\ISC_Hadoop_TC\IEEEtran.cls"
+Document Class: IEEEtran 2014/09/17 V1.8a by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmpcountC=\count81
+\@IEEEtrantmptoksA=\toks14
+-- Using IEEE Computer Society mode.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 458.
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen105
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <5.01874> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <5.01874> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <7.02625> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <7.02625> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <8.03> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <8.03> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9.03374> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <9.03374> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9.53561> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <9.53561> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <11.04124> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <11.04124> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12.045> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <12.045> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.06374> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <17.06374> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.075> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <20.075> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.09> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24.09> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 1039.
+\IEEEquantizedlength=\dimen109
+\IEEEquantizedlengthdiff=\dimen110
+\IEEEquantizedtextheightdiff=\dimen111
+\IEEEilabelindentA=\dimen112
+\IEEEilabelindentB=\dimen113
+\IEEEilabelindent=\dimen114
+\IEEEelabelindent=\dimen115
+\IEEEdlabelindent=\dimen116
+\IEEElabelindent=\dimen117
+\IEEEiednormlabelsep=\dimen118
+\IEEEiedmathlabelsep=\dimen119
+\IEEEiedtopsep=\skip41
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@IEEEsubequation=\count86
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count87
+\c@table=\count88
+\@IEEEeqnnumcols=\count89
+\@IEEEeqncolcnt=\count90
+\@IEEEsubeqnnumrollback=\count91
+\@IEEEquantizeheightA=\dimen120
+\@IEEEquantizeheightB=\dimen121
+\@IEEEquantizeheightC=\dimen122
+\@IEEEquantizeprevdepth=\dimen123
+\@IEEEquantizemultiple=\count92
+\@IEEEquantizeboxA=\box26
+\@IEEEtmpitemindent=\dimen124
+\c@IEEEbiography=\count93
+\@IEEEtranrubishbin=\box27
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count94
+\calc@Bcount=\count95
+\calc@Adimen=\dimen125
+\calc@Bdimen=\dimen126
+\calc@Askip=\skip44
+\calc@Bskip=\skip45
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count96
+\calc@Cskip=\skip46
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen127
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen128
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count97
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count98
+\leftroot@=\count99
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count100
+\DOTSCASE@=\count101
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen129
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
+\dotsspace@=\muskip11
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
+\tag@help=\toks16
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
+\andhelp@=\toks17
+\eqnshift@=\dimen130
+\alignsep@=\dimen131
+\tagshift@=\dimen132
+\tagwidth@=\dimen133
+\totwidth@=\dimen134
+\lineht@=\dimen135
+\@envbody=\toks18
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count109
+))
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
+)
+\epsfxsize=\dimen138
+\epsfysize=\dimen139
+)
+(C:\Users\dongchul.p1\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(C:\Users\dongchul.p1\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(C:\Users\dongchul.p1\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen140
+\captionmargin@=\dimen141
+\captionwidth=\dimen142
+\caption@tempdima=\dimen143
+\caption@indent=\dimen144
+\caption@parindent=\dimen145
+\caption@hangindent=\dimen146
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtablestring \footnotesize \bgroup \par \cen
+tering \@IEEEtabletopskipstrut {\normalfont \sffamily \footnotesize #1}\\{\normalfont \sffamily \footnotesize #2}\par \a
+ddvspace {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempboxa \hbo
+x {\normalfont \sffamily \footnotesize {#1.}\nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\no
+rmalfont \sffamily \footnotesize {#1.}\nobreakspace }\parbox [t]{\hsize }{\normalfont \sffamily \footnotesize \noindent 
+\unhbox \@tempboxa #2}\else \hbox to\hsize {\normalfont \sffamily \footnotesize \box \@tempboxa \hfil }\fi \fi .
+\c@ContinuedFloat=\count110
+)
+\c@KVtest=\count111
+\sf@farskip=\skip50
+\sf@captopadj=\dimen147
+\sf@capskip=\skip51
+\sf@nearskip=\skip52
+\c@subfigure=\count112
+\c@subfigure@save=\count113
+\c@lofdepth=\count114
+\c@subtable=\count115
+\c@subtable@save=\count116
+\c@lotdepth=\count117
+\sf@top=\skip53
+\sf@bottom=\skip54
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks21
+\verbatim@line=\toks22
+\verbatim@in@stream=\read1
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen148
+)
+(C:\Users\dongchul.p1\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithm2e\algorithm2e.sty
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count118
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+)
+********************************************************
+Package `algorithm2e' Release 5.0 -- january 06 2013 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (cfiorio@um2.fr)
+********************************************************
+\skiptotal=\skip55
+\skiplinenumber=\skip56
+\skiprule=\skip57
+\skiphlne=\skip58
+\skiptext=\skip59
+\skiplength=\skip60
+\algomargin=\skip61
+\skipalgocfslide=\skip62
+\algowidth=\dimen149
+\inoutsize=\dimen150
+\inoutindent=\dimen151
+\interspacetitleruled=\dimen152
+\interspacealgoruled=\dimen153
+\interspacetitleboxruled=\dimen154
+\algocf@inoutbox=\box30
+\algocf@inputbox=\box31
+\AlCapSkip=\skip63
+\AlCapHSkip=\skip64
+\algoskipindent=\skip65
+\algocf@nlbox=\box32
+\algocf@hangingbox=\box33
+\algocf@untilbox=\box34
+\algocf@skipuntil=\skip66
+\algocf@capbox=\box35
+\algoheightruledefault=\skip67
+\algoheightrule=\skip68
+\algotitleheightruledefault=\skip69
+\algotitleheightrule=\skip70
+\c@algocfline=\count119
+\c@algocfproc=\count120
+\c@algocf=\count121
+\algocf@algoframe=\box36
+\algocf@algobox=\box37
+) (C:\Users\dongchul.p1\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip71
+\enit@outerparindent=\dimen155
+\enit@toks=\toks23
+\enit@inbox=\box38
+\enitdp@description=\count122
+)
+(C:\Users\dongchul.p1\AppData\Roaming\MiKTeX\2.9\tex\latex\preprint\balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen156
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count123
+\float@exts=\toks24
+\float@box=\box39
+\@float@everytoks=\toks25
+\@floatcapt=\box40
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip72
+\LTright=\skip73
+\LTpre=\skip74
+\LTpost=\skip75
+\LTchunksize=\count124
+\LTcapwidth=\dimen157
+\LT@head=\box41
+\LT@firsthead=\box42
+\LT@foot=\box43
+\LT@lastfoot=\box44
+\LT@cols=\count125
+\LT@rows=\count126
+\c@LT@tables=\count127
+\c@LT@chunks=\count128
+\LT@p@ftn=\toks26
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen158
+\extrarowheight=\dimen159
+\NC@list=\toks27
+\extratabsurround=\skip76
+\backup@length=\skip77
+)
+(C:\Users\dongchul.p1\AppData\Roaming\MiKTeX\2.9\tex\latex\framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip78
+\fb@frw=\dimen160
+\fb@frh=\dimen161
+\FrameRule=\dimen162
+\FrameSep=\dimen163
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+(C:\Users\dongchul.p1\AppData\Roaming\MiKTeX\2.9\tex\latex\comment\comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment')
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(C:\Users\dongchul.p1\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
+)
+("C:\Users\dongchul.p1\Documents\SAL\SmartSSD Project\2014\Hadoop_ISC\ISC_Hadoop_TC\ISC_Hadoop_TC.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+
+-- Lines per column: 61 (exact).
+(C:\Users\dongchul.p1\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count129
+\scratchdimen=\dimen164
+\scratchbox=\box45
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen165
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks29
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+ (C:\Users\dongchul.p1\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 561.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <11.04124> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 561.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8.03> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 561.
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 561.
+LaTeX Font Info:    Try loading font information for U+msa on input line 561.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 561.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 561.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 561.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <8.03> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 561.
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--561
+
+ []
+
+("C:\Users\dongchul.p1\Documents\SAL\SmartSSD Project\2014\Hadoop_ISC\ISC_Hadoop_TC\introduction.tex"
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11.04124> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <11.04124> not available
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 3.
+LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 15.
+ [1{C:/Users/dongchul.p1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+])
+("C:\Users\dongchul.p1\Documents\SAL\SmartSSD Project\2014\Hadoop_ISC\ISC_Hadoop_TC\background.tex"
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9.53561> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 7.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Bus_Analyzer.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Bus_Analyzer.pdf, id=14, 513.76874pt x 176.21233pt>
+File: figures/Bus_Analyzer.pdf Graphic file (type pdf)
+ <use figures/Bus_Analyzer.pdf>
+Package pdftex.def Info: figures/Bus_Analyzer.pdf used on input line 14.
+(pdftex.def)             Requested size: 250.41693pt x 85.8877pt.
+
+Overfull \hbox (9.47194pt too wide) in paragraph at lines 13--16
+ [][] 
+ []
+
+[2 <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Bus_Analyzer.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/ISC_HW_architecture.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/ISC_HW_architecture.pdf, id=38, 480.31143pt x 249.82133pt>
+File: figures/ISC_HW_architecture.pdf Graphic file (type pdf)
+ <use figures/ISC_HW_architecture.pdf>
+Package pdftex.def Info: figures/ISC_HW_architecture.pdf used on input line 36.
+(pdftex.def)             Requested size: 250.41693pt x 130.2509pt.
+
+Overfull \hbox (9.47194pt too wide) in paragraph at lines 34--38
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 43.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/ISC_SW_architecture.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/ISC_SW_architecture.pdf, id=39, 400.01144pt x 260.23021pt>
+File: figures/ISC_SW_architecture.pdf Graphic file (type pdf)
+ <use figures/ISC_SW_architecture.pdf>
+Package pdftex.def Info: figures/ISC_SW_architecture.pdf used on input line 77.
+(pdftex.def)             Requested size: 250.41693pt x 162.91348pt.
+
+Underfull \hbox (badness 2913) in paragraph at lines 86--88
+[]\OT1/ppl/m/n/9.53561 The ISC firmware is sub-di-vided into three sub-
+ []
+
+[3 <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/ISC_HW_architecture.pdf> <
+C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/ISC_SW_architecture.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/HadoopMR.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/HadoopMR.pdf, id=67, 489.97694pt x 220.823pt>
+File: figures/HadoopMR.pdf Graphic file (type pdf)
+ <use figures/HadoopMR.pdf>
+Package pdftex.def Info: figures/HadoopMR.pdf used on input line 103.
+(pdftex.def)             Requested size: 250.41693pt x 112.85747pt.
+
+Overfull \hbox (9.47194pt too wide) in paragraph at lines 101--105
+ [][] 
+ []
+
+) ("C:\Users\dongchul.p1\Documents\SAL\SmartSSD Project\2014\Hadoop_ISC\ISC_Hadoop_TC\design.tex"
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/ISC_Hadoop_architecture3.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/ISC_Hadoop_architecture3.pdf, id=68, 557.31203pt x 303.39348pt>
+File: figures/ISC_Hadoop_architecture3.pdf Graphic file (type pdf)
+ <use figures/ISC_Hadoop_architecture3.pdf>
+Package pdftex.def Info: figures/ISC_Hadoop_architecture3.pdf used on input line 14.
+(pdftex.def)             Requested size: 252.94499pt x 137.70166pt.
+
+[4 <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/HadoopMR.pdf> <C:/Users/do
+ngchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/ISC_Hadoop_architecture3.pdf
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/ISC_Hadoop_architecture3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Single_node_architecture.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Single_node_architecture.pdf, id=125, 518.97366pt x 203.72311pt>
+File: figures/Single_node_architecture.pdf Graphic file (type pdf)
+ <use figures/Single_node_architecture.pdf>
+Package pdftex.def Info: figures/Single_node_architecture.pdf used on input line 31.
+(pdftex.def)             Requested size: 252.94499pt x 99.29362pt.
+
+<figures/ISC_Hadoop_Flowchart.pdf, id=126, 489.63116pt x 338.05298pt>
+File: figures/ISC_Hadoop_Flowchart.pdf Graphic file (type pdf)
+ <use figures/ISC_Hadoop_Flowchart.pdf>
+Package pdftex.def Info: figures/ISC_Hadoop_Flowchart.pdf used on input line 51.
+(pdftex.def)             Requested size: 247.88501pt x 171.14612pt.
+ [5 <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Single_node_architecture.
+pdf> <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/ISC_Hadoop_Flowchart.pdf
+>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Data_split_example2.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Data_split_example2.pdf, id=233, 632.97833pt x 363.78108pt>
+File: figures/Data_split_example2.pdf Graphic file (type pdf)
+ <use figures/Data_split_example2.pdf>
+Package pdftex.def Info: figures/Data_split_example2.pdf used on input line 83.
+(pdftex.def)             Requested size: 252.94499pt x 145.37108pt.
+ [6 <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Data_split_example2.pdf>]
+
+Underfull \hbox (badness 3713) in paragraph at lines 125--127
+[]\OT1/ppl/m/n/9.53561 Based on our study, we choose Hadoop word-
+ []
+
+
+Underfull \hbox (badness 5274) in paragraph at lines 125--127
+\OT1/ppl/m/n/9.53561 index, histogram-movies, histogram-ratings, sequence-
+ []
+
+[7]) ("C:\Users\dongchul.p1\Documents\SAL\SmartSSD Project\2014\Hadoop_ISC\ISC_Hadoop_TC\experiments.tex"
+LaTeX Font Info:    Calculating math sizes for size <9.03374> on input line 9.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/ISC_Hadoop_demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/ISC_Hadoop_demo.pdf, id=258, 619.88258pt x 348.50171pt>
+File: figures/ISC_Hadoop_demo.pdf Graphic file (type pdf)
+ <use figures/ISC_Hadoop_demo.pdf>
+Package pdftex.def Info: figures/ISC_Hadoop_demo.pdf used on input line 37.
+(pdftex.def)             Requested size: 252.94499pt x 142.20595pt.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Hadoop_execution_time_each_phase_breakdown2.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5>
+ allowed
+<figures/Hadoop_execution_time_each_phase_breakdown2.pdf, id=259, 369.40337pt x 244.06985pt>
+File: figures/Hadoop_execution_time_each_phase_breakdown2.pdf Graphic file (type pdf)
+
+<use figures/Hadoop_execution_time_each_phase_breakdown2.pdf>
+Package pdftex.def Info: figures/Hadoop_execution_time_each_phase_breakdown2.pdf used on input line 52.
+(pdftex.def)             Requested size: 174.53265pt x 115.31616pt.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Hadoop_time_breakdown1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Hadoop_time_breakdown1.pdf, id=260, 363.6307pt x 244.89493pt>
+File: figures/Hadoop_time_breakdown1.pdf Graphic file (type pdf)
+ <use figures/Hadoop_time_breakdown1.pdf>
+Package pdftex.def Info: figures/Hadoop_time_breakdown1.pdf used on input line 53.
+(pdftex.def)             Requested size: 174.53265pt x 117.54074pt.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Hadoop_breakdown_per_maptask1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Hadoop_breakdown_per_maptask1.pdf, id=261, 361.15707pt x 253.13972pt>
+File: figures/Hadoop_breakdown_per_maptask1.pdf Graphic file (type pdf)
+
+<use figures/Hadoop_breakdown_per_maptask1.pdf>
+Package pdftex.def Info: figures/Hadoop_breakdown_per_maptask1.pdf used on input line 54.
+(pdftex.def)             Requested size: 174.53265pt x 122.33614pt.
+
+Overfull \hbox (7.37015pt too wide) in paragraph at lines 51--57
+ [][] 
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Singlenode_Total_Elapsed_Time.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Singlenode_Total_Elapsed_Time.pdf, id=262, 371.86156pt x 268.4941pt>
+File: figures/Singlenode_Total_Elapsed_Time.pdf Graphic file (type pdf)
+
+<use figures/Singlenode_Total_Elapsed_Time.pdf>
+Package pdftex.def Info: figures/Singlenode_Total_Elapsed_Time.pdf used on input line 78.
+(pdftex.def)             Requested size: 126.47249pt x 91.31544pt.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Singlenode_Total_Mapper_Elapsed_Time.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowe
+d
+<figures/Singlenode_Total_Mapper_Elapsed_Time.pdf, id=263, 369.23285pt x 271.12192pt>
+File: figures/Singlenode_Total_Mapper_Elapsed_Time.pdf Graphic file (type pdf)
+
+<use figures/Singlenode_Total_Mapper_Elapsed_Time.pdf>
+Package pdftex.def Info: figures/Singlenode_Total_Mapper_Elapsed_Time.pdf used on input line 79.
+(pdftex.def)             Requested size: 126.47249pt x 92.86696pt.
+
+Overfull \hbox (5.99799pt too wide) in paragraph at lines 77--82
+ [][] 
+ []
+
+[8 <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/ISC_Hadoop_demo.pdf>]
+Underfull \vbox (badness 1558) has occurred while \output is active []
+
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Hadoop_total_execution_time_single_two_nodes.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5
+> allowed
+<figures/Hadoop_total_execution_time_single_two_nodes.pdf, id=287, 375.47166pt x 256.86063pt>
+File: figures/Hadoop_total_execution_time_single_two_nodes.pdf Graphic file (type pdf)
+
+<use figures/Hadoop_total_execution_time_single_two_nodes.pdf>
+Package pdftex.def Info: figures/Hadoop_total_execution_time_single_two_nodes.pdf used on input line 133.
+(pdftex.def)             Requested size: 126.47249pt x 86.52014pt.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Hadoop_power_consumption_single_node.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowe
+d
+<figures/Hadoop_power_consumption_single_node.pdf, id=288, 371.0647pt x 256.05763pt>
+File: figures/Hadoop_power_consumption_single_node.pdf Graphic file (type pdf)
+
+<use figures/Hadoop_power_consumption_single_node.pdf>
+Package pdftex.def Info: figures/Hadoop_power_consumption_single_node.pdf used on input line 135.
+(pdftex.def)             Requested size: 126.47249pt x 87.27333pt.
+
+Overfull \hbox (3.36618pt too wide) in paragraph at lines 132--138
+ [][] 
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Hadoop_CPU_usage.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Hadoop_CPU_usage.pdf, id=289, 346.62007pt x 258.0621pt>
+File: figures/Hadoop_CPU_usage.pdf Graphic file (type pdf)
+ <use figures/Hadoop_CPU_usage.pdf>
+Package pdftex.def Info: figures/Hadoop_CPU_usage.pdf used on input line 149.
+(pdftex.def)             Requested size: 166.94461pt x 124.29367pt.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Hadoop_read_io.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Hadoop_read_io.pdf, id=290, 345.01747pt x 253.65465pt>
+File: figures/Hadoop_read_io.pdf Graphic file (type pdf)
+ <use figures/Hadoop_read_io.pdf>
+Package pdftex.def Info: figures/Hadoop_read_io.pdf used on input line 150.
+(pdftex.def)             Requested size: 166.94461pt x 122.73593pt.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Hadoop_RAM_usage.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Hadoop_RAM_usage.pdf, id=291, 345.81868pt x 255.25664pt>
+File: figures/Hadoop_RAM_usage.pdf Graphic file (type pdf)
+ <use figures/Hadoop_RAM_usage.pdf>
+Package pdftex.def Info: figures/Hadoop_RAM_usage.pdf used on input line 151.
+(pdftex.def)             Requested size: 166.94461pt x 123.22676pt.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Hadoop_average_CPU_usage.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Hadoop_average_CPU_usage.pdf, id=292, 353.03181pt x 253.65364pt>
+File: figures/Hadoop_average_CPU_usage.pdf Graphic file (type pdf)
+ <use figures/Hadoop_average_CPU_usage.pdf>
+Package pdftex.def Info: figures/Hadoop_average_CPU_usage.pdf used on input line 163.
+(pdftex.def)             Requested size: 166.94461pt x 119.95259pt.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Hadoop_average_read_io.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Hadoop_average_read_io.pdf, id=293, 350.22653pt x 254.45564pt>
+File: figures/Hadoop_average_read_io.pdf Graphic file (type pdf)
+ <use figures/Hadoop_average_read_io.pdf>
+Package pdftex.def Info: figures/Hadoop_average_read_io.pdf used on input line 164.
+(pdftex.def)             Requested size: 166.94461pt x 121.29477pt.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Hadoop_average_RAM_usage.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Hadoop_average_RAM_usage.pdf, id=294, 369.862pt x 254.85614pt>
+File: figures/Hadoop_average_RAM_usage.pdf Graphic file (type pdf)
+ <use figures/Hadoop_average_RAM_usage.pdf>
+Package pdftex.def Info: figures/Hadoop_average_RAM_usage.pdf used on input line 165.
+(pdftex.def)             Requested size: 166.94461pt x 115.03418pt.
+
+[9 <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Hadoop_execution_time_each
+_phase_breakdown2.pdf> <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Hadoop
+_time_breakdown1.pdf> <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Hadoop_
+breakdown_per_maptask1.pdf> <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/S
+inglenode_Total_Elapsed_Time.pdf> <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Singlenode_Total_Mapper_Elapsed_Time.pdf> <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_
+Hadoop_TC/figures/Hadoop_total_execution_time_single_two_nodes.pdf> <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project
+/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Hadoop_power_consumption_single_node.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Hadoop_total_execution_time_clusters.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowe
+d
+<figures/Hadoop_total_execution_time_clusters.pdf, id=389, 736.33192pt x 252.31564pt>
+File: figures/Hadoop_total_execution_time_clusters.pdf Graphic file (type pdf)
+
+<use figures/Hadoop_total_execution_time_clusters.pdf>
+Package pdftex.def Info: figures/Hadoop_total_execution_time_clusters.pdf used on input line 205.
+(pdftex.def)             Requested size: 316.18123pt x 108.34344pt.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Hadoop_total_execution_time_clusters_line.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> a
+llowed
+<figures/Hadoop_total_execution_time_clusters_line.pdf, id=390, 427.9467pt x 246.54308pt>
+File: figures/Hadoop_total_execution_time_clusters_line.pdf Graphic file (type pdf)
+
+<use figures/Hadoop_total_execution_time_clusters_line.pdf>
+Package pdftex.def Info: figures/Hadoop_total_execution_time_clusters_line.pdf used on input line 206.
+(pdftex.def)             Requested size: 189.70874pt x 109.29185pt.
+
+Overfull \hbox (10.71712pt too wide) in paragraph at lines 204--209
+ [][] 
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Hadoop_power_clusters.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Hadoop_power_clusters.pdf, id=391, 709.94649pt x 272.10558pt>
+File: figures/Hadoop_power_clusters.pdf Graphic file (type pdf)
+ <use figures/Hadoop_power_clusters.pdf>
+Package pdftex.def Info: figures/Hadoop_power_clusters.pdf used on input line 220.
+(pdftex.def)             Requested size: 316.18123pt x 121.18416pt.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/fig
+ures/Hadoop_energy_clusters.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Hadoop_energy_clusters.pdf, id=392, 395.78867pt x 256.43906pt>
+File: figures/Hadoop_energy_clusters.pdf Graphic file (type pdf)
+ <use figures/Hadoop_energy_clusters.pdf>
+Package pdftex.def Info: figures/Hadoop_energy_clusters.pdf used on input line 221.
+(pdftex.def)             Requested size: 189.70874pt x 122.91716pt.
+
+Overfull \hbox (10.71712pt too wide) in paragraph at lines 219--224
+ [][] 
+ []
+
+
+Underfull \vbox (badness 3668) has occurred while \output is active []
+
+ [10 <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Hadoop_CPU_usage.pdf> <C
+:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Hadoop_read_io.pdf> <C:/Users/d
+ongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Hadoop_RAM_usage.pdf> <C:/Users/dongchul
+.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Hadoop_average_CPU_usage.pdf> <C:/Users/dongchu
+l.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Hadoop_average_read_io.pdf> <C:/Users/dongchul
+.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Hadoop_average_RAM_usage.pdf>])
+("C:\Users\dongchul.p1\Documents\SAL\SmartSSD Project\2014\Hadoop_ISC\ISC_Hadoop_TC\relatedWorks.tex" [11 <C:/Users/dong
+chul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Hadoop_total_execution_time_clusters.pdf> <
+C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Hadoop_total_execution_time_cl
+usters_line.pdf> <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Hadoop_power
+_clusters.pdf> <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/Hadoop_energy_
+clusters.pdf>]) ("C:\Users\dongchul.p1\Documents\SAL\SmartSSD Project\2014\Hadoop_ISC\ISC_Hadoop_TC\conclusion.tex"
+Underfull \hbox (badness 2111) in paragraph at lines 11--12
+\OT1/ppl/m/n/9.53561 ap-pli-ca-tions as ISC-favorable ap-pli-ca-tions and choose
+ []
+
+) ("C:\Users\dongchul.p1\Documents\SAL\SmartSSD Project\2014\Hadoop_ISC\ISC_Hadoop_TC\ISC_Hadoop_TC.bbl"
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
+\OT1/ppl/m/n/8.03 http : / / www . samsung . com / global / business / semiconductor /
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 51--53
+[]\OT1/ppl/m/n/8.03 Hortonworks, ``What is hadoop?'' $http : / / hortonworks . com /
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+[]\OT1/ppl/m/n/8.03 Seagate, ``Sea-gate ki-netic hdds,'' $http : / / www . seagate .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+\OT1/ppl/m/n/8.03 com / products / enterprise-[]servers-[]storage / nearline-[]storage /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
+[]\OT1/ppl/m/n/8.03 HGST, ``Open eth-er-net drive,'' $http : / / www . hgst .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
+\OT1/ppl/m/n/8.03 com / science-[]of-[]storage / emerging-[]technologies /
+ []
+
+
+Underfull \hbox (badness 3635) in paragraph at lines 187--191
+[]\OT1/ppl/m/n/8.03 J[]ulich Re-search Cen-ter, ``Blue gene ac-tive stor-age boosts
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--191
+\OT1/ppl/m/n/8.03 i/o per-for-mance at jsc,'' $http : / / cacm . acm . org / news /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--191
+\OT1/ppl/m/n/8.03 169841-[]blue-[]gene-[]active-[]storage-[]boosts-[]i-[]o-[]performance-[]at-[]jsc$,
+ []
+
+)
+Package epstopdf Info: Source file: <figures/dongchul1.eps>
+(epstopdf)                    date: 2011-09-18 18:13:24
+(epstopdf)                    size: 546158 bytes
+(epstopdf)             Output file: <figures/dongchul1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-24 08:34:33
+(epstopdf)                    size: 19687 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/dongchul1-eps-converted-to.pdf figures/dongchul1.eps>
+(epstopdf)             \includegraphics on input line 880.
+Package epstopdf Info: Output file is already uptodate.
+ <figures/dongchul1-eps-converted-to.pdf, id=532, 200.75pt x 250.9375pt>
+File: figures/dongchul1-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/dongchul1-eps-converted-to.pdf>
+Package pdftex.def Info: figures/dongchul1-eps-converted-to.pdf used on input line 880.
+(pdftex.def)             Requested size: 72.26993pt x 90.33742pt.
+Package epstopdf Info: Source file: <figures/dongchul1.eps>
+(epstopdf)                    date: 2011-09-18 18:13:24
+(epstopdf)                    size: 546158 bytes
+(epstopdf)             Output file: <figures/dongchul1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-24 08:34:33
+(epstopdf)                    size: 19687 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/dongchul1-eps-converted-to.pdf figures/dongchul1.eps>
+(epstopdf)             \includegraphics on input line 880.
+Package epstopdf Info: Output file is already uptodate.
+File: figures/dongchul1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/dongchul1-eps-converted-to.pdf>
+Package pdftex.def Info: figures/dongchul1-eps-converted-to.pdf used on input line 880.
+(pdftex.def)             Requested size: 72.26993pt x 90.33742pt.
+Package epstopdf Info: Source file: <figures/biplob.eps>
+(epstopdf)                    date: 2011-09-18 15:48:42
+(epstopdf)                    size: 332365 bytes
+(epstopdf)             Output file: <figures/biplob-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-24 08:34:35
+(epstopdf)                    size: 8515 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/biplob-eps-converted-to.pdf figures/biplob.eps>
+(epstopdf)             \includegraphics on input line 903.
+Package epstopdf Info: Output file is already uptodate.
+ <figures/biplob-eps-converted-to.pdf, id=535, 149.55875pt x 203.76125pt>
+File: figures/biplob-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/biplob-eps-converted-to.pdf>
+Package pdftex.def Info: figures/biplob-eps-converted-to.pdf used on input line 903.
+(pdftex.def)             Requested size: 72.27118pt x 90.33612pt.
+Package epstopdf Info: Source file: <figures/biplob.eps>
+(epstopdf)                    date: 2011-09-18 15:48:42
+(epstopdf)                    size: 332365 bytes
+(epstopdf)             Output file: <figures/biplob-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-24 08:34:35
+(epstopdf)                    size: 8515 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/biplob-eps-converted-to.pdf figures/biplob.eps>
+(epstopdf)             \includegraphics on input line 903.
+Package epstopdf Info: Output file is already uptodate.
+File: figures/biplob-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/biplob-eps-converted-to.pdf>
+Package pdftex.def Info: figures/biplob-eps-converted-to.pdf used on input line 903.
+(pdftex.def)             Requested size: 72.27118pt x 90.33612pt.
+Package epstopdf Info: Source file: <figures/du.eps>
+(epstopdf)                    date: 2011-09-18 17:31:39
+(epstopdf)                    size: 329938 bytes
+(epstopdf)             Output file: <figures/du-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-24 08:34:36
+(epstopdf)                    size: 10439 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/du-eps-converted-to.pdf figures/du.eps>
+(epstopdf)             \includegraphics on input line 916.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/du-eps-converted-to.pdf, id=538, 199.74625pt x 269.005pt>
+File: figures/du-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/du-eps-converted-to.pdf>
+Package pdftex.def Info: figures/du-eps-converted-to.pdf used on input line 916.
+(pdftex.def)             Requested size: 72.26823pt x 90.3358pt.
+Package epstopdf Info: Source file: <figures/du.eps>
+(epstopdf)                    date: 2011-09-18 17:31:39
+(epstopdf)                    size: 329938 bytes
+(epstopdf)             Output file: <figures/du-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-24 08:34:36
+(epstopdf)                    size: 10439 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/du-eps-converted-to.pdf figures/du.eps>
+(epstopdf)             \includegraphics on input line 916.
+Package epstopdf Info: Output file is already uptodate.
+File: figures/du-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/du-eps-converted-to.pdf>
+Package pdftex.def Info: figures/du-eps-converted-to.pdf used on input line 916.
+(pdftex.def)             Requested size: 72.26823pt x 90.3358pt.
+Package epstopdf Info: Source file: <figures/du.eps>
+(epstopdf)                    date: 2011-09-18 17:31:39
+(epstopdf)                    size: 329938 bytes
+(epstopdf)             Output file: <figures/du-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-24 08:34:36
+(epstopdf)                    size: 10439 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/du-eps-converted-to.pdf figures/du.eps>
+(epstopdf)             \includegraphics on input line 929.
+Package epstopdf Info: Output file is already uptodate.
+File: figures/du-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/du-eps-converted-to.pdf>
+Package pdftex.def Info: figures/du-eps-converted-to.pdf used on input line 929.
+(pdftex.def)             Requested size: 72.26823pt x 90.3358pt.
+Package epstopdf Info: Source file: <figures/du.eps>
+(epstopdf)                    date: 2011-09-18 17:31:39
+(epstopdf)                    size: 329938 bytes
+(epstopdf)             Output file: <figures/du-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-24 08:34:36
+(epstopdf)                    size: 10439 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/du-eps-converted-to.pdf figures/du.eps>
+(epstopdf)             \includegraphics on input line 929.
+Package epstopdf Info: Output file is already uptodate.
+File: figures/du-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/du-eps-converted-to.pdf>
+Package pdftex.def Info: figures/du-eps-converted-to.pdf used on input line 929.
+(pdftex.def)             Requested size: 72.26823pt x 90.3358pt.
+
+[13 <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/dongchul1-eps-converted-t
+o.pdf> <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/biplob-eps-converted-t
+o.pdf> <C:/Users/dongchul.p1/Documents/SAL/SmartSSD Project/2014/Hadoop_ISC/ISC_Hadoop_TC/figures/du-eps-converted-to.pd
+f>] ("C:\Users\dongchul.p1\Documents\SAL\SmartSSD Project\2014\Hadoop_ISC\ISC_Hadoop_TC\ISC_Hadoop_TC.aux") ) 
+Here is how much of TeX's memory you used:
+ 7191 strings out of 493921
+ 116246 string characters out of 3147263
+ 203343 words of memory out of 3000000
+ 10282 multiletter control sequences out of 15000+200000
+ 60636 words of font info for 144 fonts, out of 3000000 for 9000
+ 844 hyphenation exceptions out of 8191
+ 44i,12n,42p,1407b,352s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program
+ Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8
+a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helv
+etic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/urw/palatino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/urw/palatino/uplri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on ISC_Hadoop_TC.pdf (13 pages, 2143111 bytes).
+PDF statistics:
+ 608 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+

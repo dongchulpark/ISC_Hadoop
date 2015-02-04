@@ -1,0 +1,36 @@
+
+\section{Related Work}\label{sec:relatedWork}
+Some studies claim the main idea of offloading a computation into storage devices originates from CASSM or Data Base Computer (DBC) in 1970s~\cite{CASSM:VLDB:1975,DBC:ISCA:1978}. They adopt process-per-track or process-per-head architecture which associates a processing logic with each read/write head of a hard disk drive. As a matter of fact, both Active Disks and iDisks in 1998 start to explore a modern In-Storage Computing (also called In-Storage Processing or In-situ Processing) design~\cite{ActiveDisks:ASPLOS:1998,Keeton1998} with the help of the advance of HDD technologies (i.e., bandwidth growth and cost dropping). They try to offload key application functions such as query operators inside HDDs to reduce data movement, which corresponds to a current In-Storage Computing model. However, still low computing capabilities of HDDs prevent HDD-based ISC from successful landing to practical systems.
+
+
+
+
+
+
+
+%The main idea of offloading computation to storage devices (i.e., In-Storage Computing) has been around for decades. Many research efforts (both hardware and software sides) have been devoted to making it practical.
+
+
+%\textbf{Early work on In-Storage Computing.} As early as 1970s, some initial work have been proposed to leverage specialized hardware (e.g., processor-per-track~\cite{Su1975} and processor-per-head~\cite{Kannan1978}) for improving query processing in storage devices (i.e., hard disks at that time). However, none of the systems turned out to be successful due to high design complexity and manufacturing cost.
+
+%\textbf{Early work on In-Storage Computing.} As early as 1970s, some pieces of initial work have been proposed to leverage specialized hardware (e.g., processor-per-track and processor-per-head) for improving query processing in storage devices (i.e., hard disks at that time). For example, CASSM~\cite{Su1975} and RAP~\cite{Ozkarahan1977} followed the processor-per-track architecture to embed a processor per each track. The Ohio State Data Base Computer (DBC)~\cite{Kannan1978} and SURE~\cite{LeilichSZ78} followed the processor-per-head architecture to associate processing logic with each read/write head of a hard disk. However, none of the systems turned out to be successful due to high design complexity and manufacturing cost.
+
+%\textbf{Early work on In-Storage Computing.} As early as 1970s, some pieces of initial work have been proposed to leverage specialized hardware (e.g., processor-per-track and processor-per-head) for improving query processing in storage devices (i.e., hard disks at that time). For example, CASSM~\cite{Su1975} % and RAP~\cite{Ozkarahan1977} 
+%followed the processor-per-track architecture to embed a processor per each track. 
+%The Ohio State Data Base Computer (DBC)~\cite{Kannan1978}  %and SURE~\cite{LeilichSZ78} 
+%followed the processor-per-head architecture to associate processing logic with each read/write head of a hard disk. However, none of the systems turned out to be successful due to high design complexity and manufacturing cost.
+
+%\textbf{Later work on HDD In-Storage Computing.}
+%In late 1990s, the bandwidth of hard disks (HDD) kept growing while the cost of powerful processors kept dropping, which makes it feasible to offload bulk computation to each individual disk. Researchers started to explore in-storage computing in terms of hard disks (e.g., active disk~\cite{Acharya1998ADP} or intelligent disk~\cite{Keeton1998}). Their goal is to offload application-specific query operators inside hard disk in order to save data movement. They examined active disk in database area by offloading several primitive database operators (e.g., selection, group-by, sort). Later on, Erik et al. extended the application to data mining and multimedia area~\cite{Riedel1998ASL} (e.g., frequent sets mining and edge detection). Although interesting, few real systems adopted the proposals due to various reasons including limited hard disk bandwidth, computing power, and performance gains.
+
+
+
+However, the advent of SSDs paves the way for people to rethink of In-Storage Computing as a practical and promising computing model even in industries as well as in the academia. Samsung recently promotes Storage Intelligence for In-Storage Computing and Multi-Stream to improve SSD performance and better NAND flash endurance, which is adopted by storage companies like Pure Storage~\cite{StorageIntelligence:Samsung:PureStorage}. IBM applies ISC to their Blue Gene supercomputers to leverage the high internal bandwidth of SSDs~\cite{IBM:BlueGene:2013}. Oracle's Exadata also starts to offload complex database processing into their storage servers~\cite{Exadata:Oracle:2010}. 
+
+SSD-based ISC attracts academia as well. Logothetis et al. propose iMR for in-situ log processing~\cite{iMR:ATC:2011}. It suggests an architecture with a prototype system based on a best-effort distributed stream processor. Kim et al. try to move a scan operator in database to SSDs based on simulation~\cite{OPCL:ADMS:2011} and later Do et al. integrate Microsoft SQL Server with real SSDs thereby offloading database key operators to the SSDs~\cite{SmartSSD:SIGMOD:2013}. Kang et al. propose Hadoop MapReduce framework for ISC~\cite{SmartSSDHadoop:MSST:2013}. This work addresses same topic as ours; however, it supports only one node with just limited functions. On the other hands, our proposed ISC Hadoop MapReduce framework fully follows the exiting MapReduce framework and can operates on distributed Hadoop clusters. Boboila et al. propose Active Flash to apply ISC to data analytics~\cite{ActiveFlash:MSST:2012} and later Tiwari et al. develop more on this Active Flash for extreme scale machine based on OpenSSD platform~\cite{ActivFlash:FAST:2013,Jasmine:OpenSSD}.
+Seshadri et al. propose a Willow system~\cite{Willow:OSDI:2014}. This is a user-programmable SSD prototype system allowing programmers to augment and extend the semantics of an SSD with application-specific features.
+
+Our work explore the opportunities and challenges of Hadoop MapReduce framework based on In-Storage Computing model.
+
+
+

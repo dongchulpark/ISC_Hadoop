@@ -1,0 +1,72 @@
+
+
+\section{Introduction}\label{sec:introduction}
+
+\IEEEPARstart{D}{ue} to the superior characteristics of Solid State Drives (SSDs) to the rotational Hard Disk Drives (HDDs), SSDs have been increasingly adopted even in enterprise systems as well as in personal/mobile systems~\cite{BPLRU:FAST:2008,CFTL:SIGMETRICS:2010,GORDON:ASPLOS:2009}. Originally, SSDs have been developed for the purpose of replacing the traditional HDDs as a faster storage device since, for instance, modern SSDs are over 100 times faster than HDDs in accessing data. Moreover, they consume over 10 times less energy than HDDs~\cite{Samsung:WhitePaper:2014}. Thus, most of the recent research studies have focused primarily on how to make use of SSDs as yet-another-faster HDDs.
+
+
+However, high computational capabilities of the modern SSDs had people start to rethink of SSDs as, not just a faster storage device, but another type of a computing node, so-called In-Storage Computing (for short, ISC). Unlike a traditional CPU-centric computing philosophy--''moving data closer to codes'', this ISC model suggests a totally different computing paradigm--''moving codes closer to data'' thereby offloading key functions from a host system to a device, which significantly changes a data flow for computation~\cite{NearDataProcessing:Micro:2014}. This data flow change enables the ISC system to achieve not only a faster performance but also a marvelous energy saving, which results in the notable savings of Total Cost of Ownership (TCO) in the long run. This ISC computing paradigm is newly spotlighted in the big data era these days.
+
+
+Hadoop MapReduce is a software framework for the distributed processing of large data sets on clusters of commodity hardware, and MapReduce framework nowadays became a de facto standard for big data processing~\cite{MapReduce:Tutorial}. In the MapReduce framework, computation is divided into two functions: Map and Reduce. Mapper takes a set of data and converts it into another set of data (i.e., intermediate data), where individual elements are composed of key/value pairs. The Reducer takes the outputs from Mappers as input and combines those intermediate data into a smaller set of key/value tuples~\cite{MapReduce:OSDI:2004}.
+The Hadoop MapReduce system tries to collocate the data in a local computing node to take advantage of data locality, which is at the heart of MapReduce and is the reason for its good performance~\cite{TomWhite:HadoopDefinitiveGuide:2012}. This Hadoop policy--''putting computation near the data'' aligns well with the aforementioned recent computing paradigm shift, which was also early advocated by Jim Gray~\cite{JimGray:MSRTR:2003}.
+
+
+This work explores the challenges and opportunities of In-Storage Computing for the Hadoop MapReduce framework. We offload Mapper into the ISC device (i.e., SSD) by implementing Map features inside real SSD firmware and integrate our ISC Hadoop framework into the existing Hadoop MapReduce system framework. We set up Hadoop clusters and run a Hadoop MapReduce application on the clusters to verify our holistic ISC Hadoop framework. Our experiment results show that the ISC Hadoop system achieves a remarkable performance gain (2$\times$ faster) and significantly reduces energy consumption (more than 9$\times$ lower). 
+
+The system co-design of our ISC Hadoop MapReduce causes several interesting and very challenging issues as follows.
+
+\textbf{Discrepancy in data representation}: For data access, Hadoop in the host uses file systems such as Hadoop Distributed File System (HDFS) and a local file system such as EXT3/4. However, an ISC device cannot rely on any file system information and, instead, uses different data representation such as a Logical Block Address (LBA). Therefore, a host Hadoop system should be able to collaborate with ISC devices by employing LBA information, not using any file systems.
+%To address this issue, we develop a software component that is in charge of converting a file name into LBA range information lists.
+
+%\textbf{Discrepancy in Data Representation}: For data access, Hadoop in the host uses file systems such as Hadoop Distributed File System (HDFS) and a local file system such as EXT3/4. However, an ISC device cannot rely on any file system information and, instead, uses different data representation such as Logical Block Address (LBA). To address this issue, we develop a software component that is in charge of converting a file name into LBA range information lists.
+
+
+\textbf{Discrepancy in system interfaces}: System interfaces between the Hadoop framework in the host system and an ISC device can be different. That is, a host Hadoop framework uses Java programming language, while our ISC framework inside an SSD device can adopt a different language like C/C++. As a result, the host Hadoop system cannot directly communicate with ISC devices. %To resolve this issue, we develop another interface layer between them by adopting Java Native Interface (JNI). The overhead of this extra interface layer is almost ignorable (less than 100 ms).
+
+
+%\textbf{Discrepancy in System Interfaces}: System interfaces between Hadoop framework in the host system and ISC device can be different. That is, a Hadoop framework in the host uses Java programming language, while our SSD firmware for ISC processing adopts C/C++ language. As a result, the host Hadoop system cannot directly communicate with ISC devices. To resolve this issue, we develop another interface layer between them by adopting Java Native Interface (JNI). The overhead of this extra interface layer is almost ignorable (less than 100 ms).
+
+
+\textbf{Data split}: Hadoop Distributed File System (HDFS) splits large data into a unit of 64MB (i.e., input split) by default~\cite{TomWhite:HadoopDefinitiveGuide:2012}. This file split process gives rise to a serious data split issue in the ISC model. As an example, HDFS may split the word 'Hadoop' into 'Ha' and 'doop' during the aforementioned input split process. In fact, this does not causes any issue in a typical Hadoop system because HDFS in the host Hadoop system loads large data in the main memory and processes them in a streaming data access manner. On the other hand, our ISC Hadoop MapReduce framework basically does not move data from devices to the host memory. Thus, it inherently cannot avoid this data split issue in the Hadoop MapReduce framework. %, we need to come up with a different mechanism. For this issue, our ISC Hadoop system consults a host and separately processes data split parts (this will be described in more detail in the design section).
+
+%\textbf{Data Split}: Hadoop Distributed File System (HDFS) splits large data into a unit of 64MB by default~\cite{TomWhite:HadoopDefinitiveGuide:2012}. This file split process gives rise to a serious data split issue. As an example, HDFS may split the word 'Hadoop' into 'Ha' in one file of 64MB (i.e., last part of the file) and 'doop' in another file of 64MB (i.e., starting part of another file). In fact, this does not causes any issue in a typical Hadoop system because HDFS in the host Hadoop system loads large data in the main memory and processes it in a streaming data access manner. However, since ISC Hadoop MapReduce framework basically does not move data from devices to the host memory, we need to come up with a different mechanism. For this issue, our ISC Hadoop system consults a host and separately processes data split parts (this will be described in more detail in the design section).
+
+
+\textbf{Feature offloading}: We move only Mapper, not both, from a host to an ISC device. Unlike a Map task that does not have a dependency among other tasks, a Reduce task collects the output results of other Map tasks in its shuffle phase. However, since our ISC device cannot directly communicate with other ISC devices, a host system should be in charge of collecting the intermediate data from each Mapper and, moreover, redistribute the collected data to each ISC device for the Reduce execution. This incurs unnecessary redundant data movement and the ISC devices can be overwhelmed due to the limited resources.
+
+%\textbf{Feature Offloading}: Out of key features of Hadoop MapReduce framework, we move only Mapper, not both, from a host to an ISC device. Unlike a Map task that does not have a dependency among other tasks, a Reduce task collects the output results of other Map tasks in its shuffle phase. However, our ISC device cannot directly communicate other ISC devices, a host system should be in charge of collecting the intermediate data from each Mapper. Moreover, the host should redistribute the collected data to each ISC device for the Reduce execution. This incurs unnecessary data movement and the ISC devices can be overwhelmed due to the limited resources.
+
+
+
+%The Reduce task is subdivided into three major phases such as copy, sort, and reduce. Unlike a Map task, the Reduce task generally does not significantly lessen the data size of its output result after Reduce processing. This is not favorable to ISC framework~\cite{SmartSSD:SIGMOD:2013}. Moreover, the sort phase may require tremendous Write operations to store intermediate results, which has a critical impact on the life endurance of NAND flash memory~\cite{SSDDesignTradeOff:ATC:2008,IPL:SIGMOD:2007,HotData:MSST:2011}. 
+
+\textbf{A fully distributed mode on a single node}: Hadoop basically does not support a fully distributed mode on a single node (i.e., multiple instances of datanode on a single machine). Only one instance of datanode can be configured in a pseudo distributed mode. However, it can provide a very useful and efficient way by simulating the fully distributed Hadoop clusters with only a single machine. We did a workaround for this mode and all our initial studies are done with this mode. 
+
+
+%\textbf{Fully Distributed Mode on a Single Node}: Basically it is impossible to run Hadoop in fully distributed mode on a single node (i.e., multiple instances of datanode on a single machine). Only one instance of datanode can be configured in pseudo distributed mode. However, the fully distributed mode in a single node enables to simulate fully distributed mode in Hadoop clusters, which is very helpful for both development and research purpose. We did a workaround for this mode (this will be described in the design section).
+
+We address all these challenges in the design section (Section~\ref{sec:design}) in more detail. The main contributions of this work are as follows:
+
+%\textcolor{red}{We can remove solution of each challenges for curiosity of readers and for space savings}
+
+
+\begin{itemize}
+  \item \emph{\textbf{Real SSD implementation}}: We implemented ISC features (i.e., Mapper) inside real SSD firmware. All experiments represent a real device and system performance.
+  \item \emph{\textbf{Hadoop system integration}}: We integrated our ISC Hadoop framework with the existing Hadoop MapReduce framework to seamlessly support the existing Hadoop features.
+	%We integrated our ISC Hadoop framework with the existing Hadoop MapReduce framework to verify our proposed ISC system and to study a holistic system performance.
+  %\item Experiments in Hadoop clusters: to the best of our knowledge, our ISC Hadoop system is the first ISC Hadoop MapReduce framework working in Hadoop clusters with real SSD implementation.
+	\item \emph{\textbf{Exploration of challenging issues}}: The ISC model for Hadoop MapReduce framework causes the aforementioned challenging issues. We judiciously tackled those issues in our proposed ISC Hadoop framework.
+\end{itemize}
+
+
+%The remainder of this paper is organized as follows. Section II describes existing FTL schemes. Section III explains the design and operations of the CFTL scheme. Section IV provides performance evaluation. Finally, Section V concludes the discussion.
+
+
+
+The rest of this paper is organized as follows.
+Section~\ref{sec:background} provides an overview of In-Storage Computing and its architecture as well as a Hadoop MapReduce framework.
+Section~\ref{sec:design} presents our proposed ISC Hadoop MapReduce framework, and explains our system design and challenges.
+Section~\ref{sec:experiments} shows our extensive experiment results and provides analyses to demonstrate the performance gain of our ISC Hadoop system. Section~\ref{sec:relatedWork} discusses related studies of this work, and Section~\ref{sec:conclusion} concludes our work.
+
+
